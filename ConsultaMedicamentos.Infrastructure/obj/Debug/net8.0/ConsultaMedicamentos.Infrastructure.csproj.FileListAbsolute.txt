@@ -15,3 +15,4 @@ Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.In
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Domain.dll
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\Consulta.0238EE2C.Up2Date
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.sourcelink.json

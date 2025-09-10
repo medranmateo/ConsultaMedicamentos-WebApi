@@ -84,3 +84,4 @@ Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos-We
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos-WebApi\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos-WebApi\bin\Debug\net8.0\ConsultaMedicamentos.Application.dll
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos-WebApi\bin\Debug\net8.0\ConsultaMedicamentos.Application.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos-WebApi\obj\Debug\net8.0\ConsultaMedicamentos-WebApi.sourcelink.json
