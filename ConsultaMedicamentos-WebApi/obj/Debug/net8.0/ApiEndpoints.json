@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.MedicamentosController",
+    "Method": "Get",
+    "RelativePath": "api/Medicamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.MedicamentosController",
+    "Method": "ObtenerConsumosMedicos",
+    "RelativePath": "api/Medicamentos/consumos/{tipoDocumento}/{numeroDocumento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.MedicamentosController",
+    "Method": "ObtenerPracticasMedicas",
+    "RelativePath": "api/Medicamentos/practicas/{numeroDocumento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

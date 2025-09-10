@@ -1,0 +1,6 @@
+@ConsultaMedicamentos_WebApi_HostAddress = http://localhost:5019
+
+GET {{ConsultaMedicamentos_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

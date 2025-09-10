@@ -1,0 +1,17 @@
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Infrastructure.deps.json
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Infrastructure.runtimeconfig.json
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Infrastructure.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Infrastructure.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.csproj.AssemblyReference.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.AssemblyInfoInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.AssemblyInfo.cs
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.csproj.CoreCompileInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\refint\ConsultaMedicamentos.Infrastructure.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ConsultaMedicamentos.Infrastructure.genruntimeconfig.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\ref\ConsultaMedicamentos.Infrastructure.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Infrastructure\obj\Debug\net8.0\Consulta.0238EE2C.Up2Date

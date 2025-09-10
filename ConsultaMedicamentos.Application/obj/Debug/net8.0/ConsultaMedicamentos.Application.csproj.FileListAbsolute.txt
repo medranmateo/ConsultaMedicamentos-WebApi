@@ -1,0 +1,15 @@
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Application.deps.json
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Application.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Application.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.AssemblyInfoInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.AssemblyInfo.cs
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.csproj.CoreCompileInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\refint\ConsultaMedicamentos.Application.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ref\ConsultaMedicamentos.Application.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.csproj.AssemblyReference.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\Consulta.2B0E84A8.Up2Date

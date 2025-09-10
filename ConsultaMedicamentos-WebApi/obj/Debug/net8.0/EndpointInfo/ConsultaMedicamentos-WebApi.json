@@ -1,0 +1,74 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ConsultaMedicamentos-WebApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Medicamentos": {
+      "get": {
+        "tags": [
+          "Medicamentos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicamentos/practicas/{numeroDocumento}": {
+      "get": {
+        "tags": [
+          "Medicamentos"
+        ],
+        "parameters": [
+          {
+            "name": "numeroDocumento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Medicamentos/consumos/{tipoDocumento}/{numeroDocumento}": {
+      "get": {
+        "tags": [
+          "Medicamentos"
+        ],
+        "parameters": [
+          {
+            "name": "tipoDocumento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "numeroDocumento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

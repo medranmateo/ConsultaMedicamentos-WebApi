@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|solutionrelative:consultamedicamentos-webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos-webapi\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|solutionrelative:consultamedicamentos-webapi\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E149BFCA-3A36-4A36-A950-13DA38F64F24}|ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.infrastructure\\repositories\\medicamentosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E149BFCA-3A36-4A36-A950-13DA38F64F24}|ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj|solutionrelative:consultamedicamentos.infrastructure\\repositories\\medicamentosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8271E1-4B98-4DCF-B929-18BFB19CA1C2}|ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.application\\services\\medicamentosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8271E1-4B98-4DCF-B929-18BFB19CA1C2}|ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj|solutionrelative:consultamedicamentos.application\\services\\medicamentosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.domain\\irepositories\\imedicamentosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|solutionrelative:consultamedicamentos.domain\\irepositories\\imedicamentosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.domain\\entities\\consumomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|solutionrelative:consultamedicamentos.domain\\entities\\consumomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E149BFCA-3A36-4A36-A950-13DA38F64F24}|ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E149BFCA-3A36-4A36-A950-13DA38F64F24}|ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj|solutionrelative:consultamedicamentos.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.domain\\iservices\\imedicamentosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|solutionrelative:consultamedicamentos.domain\\iservices\\imedicamentosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos.domain\\entities\\practicamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB5764-A5AD-47C2-83BB-486A22890C91}|ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj|solutionrelative:consultamedicamentos.domain\\entities\\practicamedica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|z:\\cpce\\consultamedicamentos\\consultamedicamentos-webapi\\consultamedicamentos-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06C2EA65-BB47-42C4-8937-CBE05192E18D}|ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj|solutionrelative:consultamedicamentos-webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsumoMedico.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\Entities\\ConsumoMedico.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Domain\\Entities\\ConsumoMedico.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\Entities\\ConsumoMedico.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Domain\\Entities\\ConsumoMedico.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:46:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMedicamentosRepository.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\IRepositories\\IMedicamentosRepository.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Domain\\IRepositories\\IMedicamentosRepository.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\IRepositories\\IMedicamentosRepository.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Domain\\IRepositories\\IMedicamentosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:12:12.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicamentosRepository.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\Repositories\\MedicamentosRepository.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Infrastructure\\Repositories\\MedicamentosRepository.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\Repositories\\MedicamentosRepository.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Infrastructure\\Repositories\\MedicamentosRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA7wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:44:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicamentosController.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\Controllers\\MedicamentosController.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos-WebApi\\Controllers\\MedicamentosController.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\Controllers\\MedicamentosController.cs",
+              "RelativeToolTip": "ConsultaMedicamentos-WebApi\\Controllers\\MedicamentosController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:11:10.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos-WebApi\\Program.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\Program.cs",
+              "RelativeToolTip": "ConsultaMedicamentos-WebApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T13:59:02.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicamentosService.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\Services\\MedicamentosService.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Application\\Services\\MedicamentosService.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\Services\\MedicamentosService.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Application\\Services\\MedicamentosService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAEwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:48:14.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T13:12:48.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMedicamentosService.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\IServices\\IMedicamentosService.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Domain\\IServices\\IMedicamentosService.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\IServices\\IMedicamentosService.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Domain\\IServices\\IMedicamentosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:13:07.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PracticaMedica.cs",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\Entities\\PracticaMedica.cs",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos.Domain\\Entities\\PracticaMedica.cs",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\Entities\\PracticaMedica.cs",
+              "RelativeToolTip": "ConsultaMedicamentos.Domain\\Entities\\PracticaMedica.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:47:28.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ConsultaMedicamentos-WebApi\\appsettings.json",
+              "ToolTip": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\appsettings.json",
+              "RelativeToolTip": "ConsultaMedicamentos-WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-08T13:57:37.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

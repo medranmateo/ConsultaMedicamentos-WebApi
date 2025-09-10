@@ -1,0 +1,11 @@
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.deps.json
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.AssemblyInfoInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.AssemblyInfo.cs
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.csproj.CoreCompileInputs.cache
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\refint\ConsultaMedicamentos.Domain.dll
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ref\ConsultaMedicamentos.Domain.dll
