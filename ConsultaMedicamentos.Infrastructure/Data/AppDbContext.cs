@@ -21,10 +21,20 @@ namespace ConsultaMedicamentos.Infrastructure.Data
         public DbSet<PracticaMedica> practicaMedicas { get; set; }
         public DbSet<ConsumoMedico> consumoMedicos { get; set; }
 
+        public DbSet<DesconocimientosSociales> desconocimientosSociales { get; set; }
+
+        public DbSet<ParametrosApi> parametrosApi { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PracticaMedica>().HasNoKey();
             modelBuilder.Entity<ConsumoMedico>().HasNoKey();
+            modelBuilder.Entity<DesconocimientosSociales>()
+                .Property(d => d.Id)
+                .ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<ParametrosApi>().HasNoKey();
+            
         }
 
     }

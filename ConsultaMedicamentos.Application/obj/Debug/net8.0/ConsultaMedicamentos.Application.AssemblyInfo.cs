@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultaMedicamentos.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83f4c332a51de5419425fe30791e58fc6a66aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultaMedicamentos.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultaMedicamentos.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

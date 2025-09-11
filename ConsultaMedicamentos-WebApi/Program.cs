@@ -35,6 +35,8 @@ builder.Services.AddSwaggerGen();
 // Injection dependencys
 builder.Services.AddScoped<IMedicamentosService, MedicamentosService>();
 builder.Services.AddScoped<IMedicamentosRepository, MedicamentosRepository>();
+builder.Services.AddScoped<IRegistroEmailService, RegistroEmailService>();
+builder.Services.AddScoped<IRegistroEmailRepository, RegistroEmailRepository>();
 
 var app = builder.Build();
 

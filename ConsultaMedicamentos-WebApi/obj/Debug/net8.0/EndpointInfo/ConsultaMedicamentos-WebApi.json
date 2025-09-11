@@ -68,6 +68,45 @@
           }
         }
       }
+    },
+    "/api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}": {
+      "get": {
+        "tags": [
+          "RegistroMail"
+        ],
+        "parameters": [
+          {
+            "name": "tipoDocumento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "numeroDocumento",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }

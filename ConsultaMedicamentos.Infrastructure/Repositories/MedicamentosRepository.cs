@@ -21,21 +21,21 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
 
         public async Task<IEnumerable<ConsumoMedico>> ObtenerConsumosMedicos(string tipoDocumento, string numeroDocumento)
         {
-            var consumos = await _context.consumoMedicos.ToListAsync();
-            //.Where(c => c.TipoDocumento == tipoDocumento && c.NumeroDocumento == numeroDocumento)
-            //.GroupBy(g => g.Codigo)
-            //.Select(g => g.First()) // Eitamos duplicados
-            //.ToListAsync();
+            var consumos = await _context.consumoMedicos
+            .Where(c => c.TipoDocumento == tipoDocumento && c.NumeroDocumento == numeroDocumento)
+            .GroupBy(g => g.Codigo)
+            .Select(g => g.First()) // Eitamos duplicados
+            .ToListAsync();
             return consumos;
         }
 
         public async Task<IEnumerable<PracticaMedica>> ObtenerPracticasMedicas(string numeroDocumento)
         {
-            var practicas = await _context.practicaMedicas.ToListAsync();
-            //.Where(p => p.NumeroDocumento == numeroDocumento)
-            //.GroupBy(p => p.Codigo)
-            //.Select(g => g.First()) // Eitamos duplicados
-            //.ToListAsync();
+            var practicas = await _context.practicaMedicas
+            .Where(p => p.NumeroDocumento == numeroDocumento)
+            .GroupBy(p => p.Codigo)
+            .Select(g => g.First()) // Eitamos duplicados
+            .ToListAsync();
 
             return practicas;
         }

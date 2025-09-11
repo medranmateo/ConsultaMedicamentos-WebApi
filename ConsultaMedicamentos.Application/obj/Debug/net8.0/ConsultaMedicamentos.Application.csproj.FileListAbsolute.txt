@@ -13,3 +13,4 @@ Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Ap
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.csproj.AssemblyReference.cache
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\Consulta.2B0E84A8.Up2Date
+Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Application\obj\Debug\net8.0\ConsultaMedicamentos.Application.sourcelink.json

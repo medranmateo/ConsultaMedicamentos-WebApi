@@ -45,5 +45,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.RegistroMailController",
+    "Method": "RegistrarDesconocimiento",
+    "RelativePath": "api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
