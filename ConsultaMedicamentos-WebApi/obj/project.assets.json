@@ -1159,9 +1159,6 @@
       "ConsultaMedicamentos.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "MailKit": "4.13.0"
-        },
         "compile": {
           "bin/placeholder/ConsultaMedicamentos.Domain.dll": {}
         },
@@ -3410,23 +3407,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmedran\\.nuget\\packages\\": {},
+    "C:\\Users\\mateo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj",
+      "projectUniqueName": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj",
       "projectName": "ConsultaMedicamentos-WebApi",
-      "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj",
-      "packagesPath": "C:\\Users\\mmedran\\.nuget\\packages\\",
-      "outputPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\obj\\",
+      "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi.csproj",
+      "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos-WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mmedran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3441,14 +3438,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj": {
-              "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj"
+            "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj": {
+              "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Application\\ConsultaMedicamentos.Application.csproj"
             },
-            "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
-              "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj"
+            "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
+              "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj"
             },
-            "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {
-              "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj"
+            "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {
+              "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj"
             }
           }
         }

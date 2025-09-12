@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {}
+    "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {}
   },
   "projects": {
-    "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
+    "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj",
         "projectName": "ConsultaMedicamentos.Domain",
-        "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj",
-        "packagesPath": "C:\\Users\\mmedran\\.nuget\\packages\\",
-        "outputPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\obj\\",
+        "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj",
+        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mmedran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,12 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "MailKit": {
-              "target": "Package",
-              "version": "[4.13.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -75,20 +69,20 @@
         }
       }
     },
-    "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {
+    "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj",
         "projectName": "ConsultaMedicamentos.Infrastructure",
-        "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mmedran\\.nuget\\packages\\",
-        "outputPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\obj\\",
+        "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\ConsultaMedicamentos.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mateo\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mmedran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
-                "projectPath": "Z:\\CPCE\\ConsultaMedicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj"
+              "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj": {
+                "projectPath": "C:\\Repos\\wk\\medicamentos\\ConsultaMedicamentos-WebApi\\ConsultaMedicamentos.Domain\\ConsultaMedicamentos.Domain.csproj"
               }
             }
           }

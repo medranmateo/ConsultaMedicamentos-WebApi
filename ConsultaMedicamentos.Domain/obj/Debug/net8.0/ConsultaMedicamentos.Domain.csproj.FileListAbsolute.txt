@@ -10,3 +10,15 @@ Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Do
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ref\ConsultaMedicamentos.Domain.dll
 Z:\CPCE\ConsultaMedicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.sourcelink.json
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.deps.json
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\bin\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.AssemblyInfoInputs.cache
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.AssemblyInfo.cs
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.sourcelink.json
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.dll
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\refint\ConsultaMedicamentos.Domain.dll
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ConsultaMedicamentos.Domain.pdb
+C:\Repos\wk\medicamentos\ConsultaMedicamentos-WebApi\ConsultaMedicamentos.Domain\obj\Debug\net8.0\ref\ConsultaMedicamentos.Domain.dll

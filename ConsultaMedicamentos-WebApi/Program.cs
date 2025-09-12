@@ -38,6 +38,16 @@ builder.Services.AddScoped<IMedicamentosRepository, MedicamentosRepository>();
 builder.Services.AddScoped<IRegistroEmailService, RegistroEmailService>();
 builder.Services.AddScoped<IRegistroEmailRepository, RegistroEmailRepository>();
 
+builder.Services.AddSingleton<IEmailService>(sp => 
+    new EmailService(
+        smtpServer: "smtp.gmail.com",
+        smtpPort: 587,
+        smtpUser: "tu_correo@gmail.com",
+        smtpPass: "tu_app_password", // usar App Password en Gmail
+        fromAddress: "tu_correo@gmail.com"
+    )
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
