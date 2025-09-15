@@ -25,16 +25,21 @@ namespace ConsultaMedicamentos.Infrastructure.Data
 
         public DbSet<ParametrosApi> parametrosApi { get; set; }
 
+        public DbSet<Matriculado> matriculado {  get; set; }
+
+        public DbSet<Afiliado> Afiliados { get; set; } = null!;
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PracticaMedica>().HasNoKey();
             modelBuilder.Entity<ConsumoMedico>().HasNoKey();
-            modelBuilder.Entity<DesconocimientosSociales>()
-                .Property(d => d.Id)
-                .ValueGeneratedOnAdd();
+            //modelBuilder.Entity<DesconocimientosSociales>()
+            //    .Property(d => d.Id)
+            //    .ValueGeneratedOnAdd();
 
             modelBuilder.Entity<ParametrosApi>().HasNoKey();
-            
+            modelBuilder.Entity<Afiliado>().HasNoKey();
+
         }
 
     }

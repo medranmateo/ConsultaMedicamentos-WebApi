@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using MailKit.Net.Smtp;
 using MimeKit;
+//using System.Net.Mail;
 using System.Threading.Tasks;
 
 namespace ConsultaMedicamentos.Application.Services
@@ -44,11 +45,15 @@ namespace ConsultaMedicamentos.Application.Services
                 Text = body // admite HTML
             };
 
-            using var smtp = new SmtpClient();
-            await smtp.ConnectAsync(_smtpServer, _smtpPort, MailKit.Security.SecureSocketOptions.StartTls);
-            await smtp.AuthenticateAsync(_smtpUser, _smtpPass);
-            await smtp.SendAsync(email);
-            await smtp.DisconnectAsync(true);
+            using (var smtp = new SmtpClient())
+            {
+                await smtp.ConnectAsync(_smtpServer, _smtpPort);
+                smtp.AuthenticationMechanisms.Remove("XOAUTH2");
+                //await smtp.AuthenticateAsync(_smtpUser, _smtpPass);
+                await smtp.SendAsync(email);
+                await smtp.DisconnectAsync(true);
+
+            }
             return true;
         }
     }

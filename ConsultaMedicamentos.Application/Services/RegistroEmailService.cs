@@ -13,10 +13,12 @@ namespace ConsultaMedicamentos.Application.Services
     public class RegistroEmailService : IRegistroEmailService
     {
         private readonly IRegistroEmailRepository _registroEmailRepository;
+        private readonly IEmailService _emailService;
 
-        public RegistroEmailService(IRegistroEmailRepository registroEmailRepository)
+        public RegistroEmailService(IRegistroEmailRepository registroEmailRepository, IEmailService emailService)
         {
             _registroEmailRepository = registroEmailRepository;
+            _emailService = emailService;
         }
 
         public async Task<ParametrosApi> ObtenerParametrosMail(string clave)
@@ -42,14 +44,14 @@ namespace ConsultaMedicamentos.Application.Services
             desconocimiento.NumeroDocumento = requestDto.NumeroDocumento;
             desconocimiento.Tipo = requestDto.Tipo;
             desconocimiento.Fecha = DateTime.Now;
-            desconocimiento.Id = await _registroEmailRepository.maximoID(); // solo en test
+            //desconocimiento.Id = await _registroEmailRepository.maximoID(); // solo en test
 
             var result = 0;
             try
             {
 
                 result = await _registroEmailRepository.RegistarDesconocimiento(desconocimiento);
-                var email = sendEmail();
+                var email = await sendEmail(desconocimiento);
             }
             catch (Exception ex)
             {
@@ -61,11 +63,30 @@ namespace ConsultaMedicamentos.Application.Services
 
         }
 
-        private async Task<int> sendEmail() 
+        private async Task<bool> sendEmail(DesconocimientosSociales desconocimientos) 
         {
-            var result = 0;
+            var result = false;
 
-            var destinatarios = await ObtenerParametrosMail("EMAIL-DS-MEDICAMENTOS");
+            string parametro = desconocimientos.Tipo switch
+            {
+                1 => "EMAIL-DS-PRACTICA",
+                2 => "EMAIL-DS-MEDICAMENTOS",
+                _ => throw new ArgumentException("Tipo no válido", nameof(desconocimientos.Tipo))
+            };
+            var tipoDesconocimiento = desconocimientos.Tipo == 1 ? "Practicas Medicas" : "Farmacia/Medicamentos";
+            var listDestinatarios = await _registroEmailRepository.ObtenerParametrosMail(parametro);
+            var toList = listDestinatarios.Valor.ToLower().Split(';');
+
+            var matriculado = await _registroEmailRepository.ObtenerMatriculado(desconocimientos.TipoDocumento, desconocimientos.NumeroDocumento);
+
+            var subject ="Desconocimiento Consumos";
+            var body = $"<p>Un matriculado ha solicitado revisión de su consumo de {tipoDesconocimiento} </p> " +
+                $"<p> Matriculado: {matriculado.TipoDocumento} - {matriculado.NumeroDocumento} - {matriculado.Nombre} {matriculado.Apellido} </p> " +
+                $"<P> Fecha: {desconocimientos.Fecha:dd/MM/yyyy} </p> " +
+                $"<p> Tipo: {tipoDesconocimiento} </p>";
+
+
+            result = await _emailService.SendEmailAsync(toList, subject, body);
 
             return result;
 

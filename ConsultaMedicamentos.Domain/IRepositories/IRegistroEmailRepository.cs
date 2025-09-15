@@ -15,5 +15,7 @@ namespace ConsultaMedicamentos.Domain.IRepositories
         public Task<int> maximoID();
 
         public Task<ParametrosApi> ObtenerParametrosMail(string clave);
+
+        public Task<Matriculado> ObtenerMatriculado(string tipoDocumento, string numeroDocumento);
     }
 }

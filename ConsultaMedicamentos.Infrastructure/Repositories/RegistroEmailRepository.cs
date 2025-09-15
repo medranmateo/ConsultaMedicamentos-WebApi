@@ -26,6 +26,14 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
             return result;
         }
 
+        public async Task<Matriculado> ObtenerMatriculado(string tipoDocumento, string numeroDocumento)
+        {
+            var matriculado = await _context.matriculado
+                .FirstOrDefaultAsync(m => m.TipoDocumento == tipoDocumento && m.NumeroDocumento == numeroDocumento);
+
+            return matriculado ?? new Matriculado();
+        }
+
         public async Task<ParametrosApi> ObtenerParametrosMail(string clave)
         {
             var param = await _context.parametrosApi.FirstOrDefaultAsync(p => p.Calve ==  clave);

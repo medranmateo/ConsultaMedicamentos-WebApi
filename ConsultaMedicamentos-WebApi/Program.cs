@@ -1,6 +1,7 @@
 using ConsultaMedicamentos.Application.Services;
 using ConsultaMedicamentos.Domain.IRepositories;
 using ConsultaMedicamentos.Domain.IServices;
+using ConsultaMedicamentos.Infrastructure.config;
 using ConsultaMedicamentos.Infrastructure.Data;
 using ConsultaMedicamentos.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.Configure<SmtpSettings>(
+    builder.Configuration.GetSection("SmtpSettings"));
 
 // Configurar CORS
 builder.Services.AddCors(options =>
@@ -38,15 +42,18 @@ builder.Services.AddScoped<IMedicamentosRepository, MedicamentosRepository>();
 builder.Services.AddScoped<IRegistroEmailService, RegistroEmailService>();
 builder.Services.AddScoped<IRegistroEmailRepository, RegistroEmailRepository>();
 
-builder.Services.AddSingleton<IEmailService>(sp => 
-    new EmailService(
-        smtpServer: "smtp.gmail.com",
-        smtpPort: 587,
-        smtpUser: "tu_correo@gmail.com",
-        smtpPass: "tu_app_password", // usar App Password en Gmail
-        fromAddress: "tu_correo@gmail.com"
-    )
-);
+builder.Services.AddSingleton<IEmailService>(sp =>
+{
+    var smtpSettings = sp.GetRequiredService<Microsoft.Extensions.Options.IOptions<SmtpSettings>>().Value;
+
+    return new EmailService(
+        smtpServer: smtpSettings.Server,
+        smtpPort: smtpSettings.Port,
+        smtpUser: smtpSettings.User,
+        smtpPass: smtpSettings.Pass,
+        fromAddress: smtpSettings.FromAddress
+    );
+});
 
 var app = builder.Build();
 

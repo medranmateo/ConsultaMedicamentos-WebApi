@@ -26,7 +26,8 @@ namespace ConsultaMedicamentos_WebApi.Controllers
         [HttpGet("practicas/{numeroDocumento}")]
         public async Task<IActionResult> ObtenerPracticasMedicas(string numeroDocumento)
         {
-            var practicas = await _medicamentosService.ObtenerPracticasMedicas(numeroDocumento);
+            var practicas = await _medicamentosService.ObtenerPractiasConAfiliados(numeroDocumento);
+            //var practicas = await _medicamentosService.ObtenerPracticasMedicas(numeroDocumento);
 
             return practicas != null ? Ok(practicas) : NotFound();
         }
@@ -34,7 +35,8 @@ namespace ConsultaMedicamentos_WebApi.Controllers
         [HttpGet("consumos/{tipoDocumento}/{numeroDocumento}")]
         public async Task<IActionResult> ObtenerConsumosMedicos(string tipoDocumento, string numeroDocumento)
         {
-            var consumos = await _medicamentosService.ObtenerConsumosMedicos(tipoDocumento, numeroDocumento);
+            var consumos = await _medicamentosService.ObtenerConsumosMedicosConAfiliados(tipoDocumento, numeroDocumento);
+            //var consumos = await _medicamentosService.ObtenerConsumosMedicos(tipoDocumento, numeroDocumento);
             return consumos != null ? Ok(consumos) : NotFound();
         }
 
