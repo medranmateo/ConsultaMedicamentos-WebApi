@@ -28,6 +28,18 @@ builder.Services.AddCors(options =>
         });
 });
 
+// cors de produccion
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("Produccion",
+//        policy =>
+//        {
+//            policy.WithOrigins("https://tusitio.com") // Reemplaza con el dominio de tu sitio
+//                  .AllowAnyHeader()
+//                  .AllowAnyMethod();
+//        });
+//});
+
 
 // Add services to the container.
 
@@ -65,6 +77,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors("Desarrollo");
+//app.UseCors("Produccion");
 
 app.UseHttpsRedirection();
 

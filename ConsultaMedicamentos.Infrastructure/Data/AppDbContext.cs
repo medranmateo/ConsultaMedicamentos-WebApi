@@ -29,6 +29,9 @@ namespace ConsultaMedicamentos.Infrastructure.Data
 
         public DbSet<Afiliado> Afiliados { get; set; } = null!;
 
+        public DbSet<PracticaPersona> practicaPersona { get; set; }
+        public DbSet<MatriculadoPersona> martriculadoPersona { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<PracticaMedica>().HasNoKey();
@@ -39,6 +42,8 @@ namespace ConsultaMedicamentos.Infrastructure.Data
 
             modelBuilder.Entity<ParametrosApi>().HasNoKey();
             modelBuilder.Entity<Afiliado>().HasNoKey();
+            modelBuilder.Entity<PracticaPersona>().HasNoKey();
+            modelBuilder.Entity<MatriculadoPersona>().HasNoKey();
 
         }
 

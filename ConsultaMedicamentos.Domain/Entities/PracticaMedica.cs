@@ -33,5 +33,8 @@ namespace ConsultaMedicamentos.Domain.Entities
 
         [Column("GA_ESTADO")]
         public string Estado {  get; set; } = string.Empty;
+
+        [Column("GA_IDENTIFICADOR")]
+        public int Identificador { get; set; } = 0;
     }
 }

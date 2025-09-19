@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,8 +24,27 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
         public async Task<IEnumerable<Afiliado>> ObtenerAfiliados(string numeroDocumento)
         {
             var afiliados = await _context.Set<Afiliado>()
-                .FromSqlInterpolated($"EXEC SP_VER_AFILIADOS_SS_POR_NRODOC DNI, {numeroDocumento}")
+                .FromSqlInterpolated($"EXEC SP_VER_AFILIADOS_SS_POR_NRODOC {"DNI"}, {numeroDocumento}")
                 .ToListAsync();
+
+            if( afiliados.Count == 0)
+            {
+                afiliados = await _context.Set<Afiliado>()
+                .FromSqlInterpolated($"EXEC SP_VER_AFILIADOS_SS_POR_NRODOC {"CI."} , {numeroDocumento}")
+                .ToListAsync();
+            }
+            if (afiliados.Count == 0)
+            {
+                afiliados = await _context.Set<Afiliado>()
+                .FromSqlInterpolated($"EXEC SP_VER_AFILIADOS_SS_POR_NRODOC {"LC."} , {numeroDocumento}")
+                .ToListAsync();
+            }
+            if (afiliados.Count == 0)
+            {
+                afiliados = await _context.Set<Afiliado>()
+                .FromSqlInterpolated($"EXEC SP_VER_AFILIADOS_SS_POR_NRODOC {"LE."} ,  {numeroDocumento}")
+                .ToListAsync();
+            }
 
 
             return afiliados;
@@ -95,8 +115,9 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
 
             try
             {
-                var documentos = string.Join(",", numerosDocumento.Where(nd => !string.IsNullOrWhiteSpace(nd)).ToArray());
+                var documentos = string.Join(",", [.. numerosDocumento.Where(nd => !string.IsNullOrWhiteSpace(nd))]);
                 
+
                 var sql = $@"
                             SELECT G.* 
                             FROM GECROS_AUTORIZACION G 
@@ -113,6 +134,35 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
                 throw new Exception(ex.Message);
             }
 
+        }
+
+        public async Task<PracticaPersona> ObtenerPracticamedicaByPersona(int identificador)
+        {
+            // ejecutamos sql raw por incompatibilidades con sqlserver 13 del servidor
+            var sql = $@"
+                            SELECT G.*, P.PER_APELLI, P.PER_NOMBRE 
+                            FROM GECROS_AUTORIZACION G 
+                            LEFT JOIN PERSONA P  
+                            ON G.GA_DOCUMENTO =  P.PER_NRODOC 
+                            WHERE G.GA_IDENTIFICADOR IN ({identificador}) 
+                            AND P.TPE_CODIGO NOT IN (3, 7, 8) ";
+            
+            var practicas = new PracticaPersona();
+            try
+            {
+                practicas = await _context.practicaPersona.FromSqlRaw(sql)
+                      .FirstOrDefaultAsync();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
+
+                
+
+            return practicas;
         }
     }
 }

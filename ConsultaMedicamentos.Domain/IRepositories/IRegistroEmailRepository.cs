@@ -17,5 +17,7 @@ namespace ConsultaMedicamentos.Domain.IRepositories
         public Task<ParametrosApi> ObtenerParametrosMail(string clave);
 
         public Task<Matriculado> ObtenerMatriculado(string tipoDocumento, string numeroDocumento);
+
+        public Task<MatriculadoPersona> ObtenerTitular(string numDocumento, string tipoDocumento);
     }
 }

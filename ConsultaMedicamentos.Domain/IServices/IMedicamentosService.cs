@@ -17,5 +17,9 @@ namespace ConsultaMedicamentos.Domain.IServices
         public Task<IEnumerable<PracticaDto>> ObtenerPractiasConAfiliados(string numeroDocumento);
 
         public Task<IEnumerable<ConsumoMedicoDto>> ObtenerConsumosMedicosConAfiliados(string tipoDocumento, string numeroDocumento);
+
+        public Task<PracticaPersona> ObtenerPracticamedicaByPersona(int identificador);
+
+        public Task<IEnumerable<Afiliado>> ObtenerAfiliados(string numeroDocumento);
     }
 }

@@ -69,7 +69,7 @@
         }
       }
     },
-    "/api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}": {
+    "/api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}/{identificador}": {
       "get": {
         "tags": [
           "RegistroMail"
@@ -99,7 +99,41 @@
               "type": "integer",
               "format": "int32"
             }
+          },
+          {
+            "name": "identificador",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RegistroMail/resultado/envio": {
+      "get": {
+        "tags": [
+          "RegistroMail"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RegistroMail/resultado/errorenvio": {
+      "get": {
+        "tags": [
+          "RegistroMail"
         ],
         "responses": {
           "200": {

@@ -30,7 +30,7 @@ namespace ConsultaMedicamentos.Application.Services
         public async Task<bool> SendEmailAsync(IEnumerable<string> toList, string subject, string body)
         {
             var email = new MimeMessage();
-            email.From.Add(new MailboxAddress("Consulta Medicamentos", _fromAddress));
+            email.From.Add(new MailboxAddress("CPCE Desconocimientos", _fromAddress));
 
             // Agregar varios destinatarios
             foreach (var to in toList)

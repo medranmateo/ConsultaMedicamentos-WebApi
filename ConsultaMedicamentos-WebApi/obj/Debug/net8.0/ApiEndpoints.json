@@ -49,7 +49,7 @@
   {
     "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.RegistroMailController",
     "Method": "RegistrarDesconocimiento",
-    "RelativePath": "api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}",
+    "RelativePath": "api/RegistroMail/desconocimiento/{tipoDocumento}/{numeroDocumento}/{tipo}/{identificador}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -68,8 +68,33 @@
         "Name": "tipo",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "identificador",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.RegistroMailController",
+    "Method": "Exito",
+    "RelativePath": "api/RegistroMail/resultado/envio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultaMedicamentos_WebApi.Controllers.RegistroMailController",
+    "Method": "Error",
+    "RelativePath": "api/RegistroMail/resultado/errorenvio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

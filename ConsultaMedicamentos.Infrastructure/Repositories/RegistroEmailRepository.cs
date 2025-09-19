@@ -57,5 +57,34 @@ namespace ConsultaMedicamentos.Infrastructure.Repositories
 
         }
 
+        public async Task<MatriculadoPersona> ObtenerTitular(string numDocumento, string tipoDocumento)
+        {
+            // ejecutamos sql raw por incompatibilidades con sqlserver 13 del servidor
+            var sql = $@"
+                            SELECT TOP 1  PER_NOMBRE, PER_APELLI, MAT_EMAIL, 
+                            M.MAT_TCEL_CAR, M.MAT_TCEL_NRO 
+                            FROM PERSONA P 
+                            LEFT JOIN MATRICULA M 
+                            ON P.PER_NRODOC = M.PER_NRODOC 
+                            WHERE P.PER_NRODOC = '{numDocumento}' 
+                            AND P.TPE_CODIGO in (1) 
+                            ORDER BY M.MAT_FECALT DESC";
+            var matriculado = new MatriculadoPersona();
+            try
+            {
+
+                matriculado = await _context.martriculadoPersona.FromSqlRaw(sql)
+                      .FirstOrDefaultAsync();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
+
+
+            return matriculado;
+        }
+
     }
 }

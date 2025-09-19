@@ -18,7 +18,7 @@ namespace ConsultaMedicamentos.Application.Services
             _repository = repository;
         }
 
-        private async Task<IEnumerable<Afiliado>> ObtenerAfiliados(string numeroDocumento)
+        public async Task<IEnumerable<Afiliado>> ObtenerAfiliados(string numeroDocumento)
         {
             var afiliados = await _repository.ObtenerAfiliados(numeroDocumento);
             return afiliados;
@@ -96,7 +96,8 @@ namespace ConsultaMedicamentos.Application.Services
                                     Practica = practica.Practica,
                                     Codigo = practica.Codigo,
                                     Localidad = practica.Localidad,
-                                    Estado = practica.Estado
+                                    Estado = practica.Estado,
+                                    Identificador = practica.Identificador,
                                 };
             }
             catch (Exception ex)
@@ -109,5 +110,11 @@ namespace ConsultaMedicamentos.Application.Services
             return resultado;
         }
 
+        public async Task<PracticaPersona> ObtenerPracticamedicaByPersona(int identificador)
+        {
+            var practicaPersona = await _repository.ObtenerPracticamedicaByPersona(identificador);
+
+            return practicaPersona;
+        }
     }
 }

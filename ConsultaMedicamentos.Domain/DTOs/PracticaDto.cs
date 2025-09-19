@@ -24,5 +24,7 @@
 
         public string Estado { get; set; } = string.Empty;
 
+        public int Identificador { get; set; } = 0;
+
     }
 }
